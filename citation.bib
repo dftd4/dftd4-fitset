@@ -23,7 +23,7 @@
    URL = {https://doi.org/10.1021/ct1002253},
    eprint = {https://doi.org/10.1021/ct1002253}
 }
-@article{S66x8,
+@article{S66x8_geometries,
    author = {{\v R}ez{\'a}{\v c}, Jan and Riley, Kevin E. and Hobza, Pavel},
    title = {S66: A Well-balanced Database of Benchmark Interaction Energies Relevant to Biomolecular Structures},
    journal = {J. Chem. Theory Comput.},
@@ -36,5 +36,16 @@
    URL = {https://doi.org/10.1021/ct2002946},
    eprint = {https://doi.org/10.1021/ct2002946}
 }
-
-
+@article{S66x8_energies,
+    author ="Santra, Golokesh and Semidalas, Emmanouil and Mehta, Nisha and Karton, Amir and Martin, Jan M. L.",
+    title  ="S66x8 noncovalent interactions revisited: new benchmark and performance of composite localized coupled-cluster methods",
+    journal  ="Phys. Chem. Chem. Phys.",
+    year  ="2022",
+    volume  ="24",
+    issue  ="41",
+    pages  ="25555-25570",
+    publisher  ="The Royal Society of Chemistry",
+    doi  ="10.1039/D2CP03938A",
+    url  ="http://dx.doi.org/10.1039/D2CP03938A",
+    abstract  ="The S66x8 noncovalent interactions benchmark has been re-evaluated at the “sterling silver” level{,} using explicitly correlated MP2-F12 near the complete basis set limit{,} CCSD(F12*)/aug-cc-pVTZ-F12{,} and a (T) correction from conventional CCSD(T)/sano-V{D{,}T}Z+ calculations. The revised reference values differ by 0.1 kcal mol−1 RMS from the original Hobza benchmark and its revision by Brauer et al.{,} but by only 0.04 kcal mol−1 RMS from the “bronze” level data in Kesharwani et al.{,} Aust. J. Chem.{,} 2018{,} 71{,} 238–248. We then used these to assess the performance of localized-orbital coupled cluster approaches with and without counterpoise corrections{,} such as PNO-LCCSD(T) as implemented in MOLPRO{,} DLPNO-CCSD(T1) as implemented in ORCA{,} and LNO-CCSD(T) as implemented in MRCC{,} for their respective “Normal”{,} “Tight”{,} and “very Tight” settings. We also considered composite approaches combining different basis sets and cutoffs. Furthermore{,} in order to isolate basis set convergence from domain truncation error{,} for the aug-cc-pVTZ basis set we compared PNO{,} DLPNO{,} and LNO approaches with canonical CCSD(T). We conclude that LNO-CCSD(T) with veryTight criteria performs very well for “raw” (CP-uncorrected){,} but struggles to reproduce counterpoise-corrected numbers even for veryveryTight criteria: this means that accurate results can be obtained using either extrapolation from basis sets large enough to quench basis set superposition error (BSSE) such as aug-cc-pV{Q{,}5}Z{,} or using a composite scheme such as Tight{T{,}Q} + 1.11[vvTight(T) − Tight(T)]. In contrast{,} PNO-LCCSD(T) works best with counterpoise{,} while performance with and without counterpoise is comparable for DLPNO-CCSD(T1). Among more economical methods{,} the highest accuracies are seen for dRPA75-D3BJ{,} ωB97M-V{,} ωB97M(2){,} revDSD-PBEP86-D4{,} and DFT(SAPT) with a TDEXX or ATDEXX kernel."
+}
